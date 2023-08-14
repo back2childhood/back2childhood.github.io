@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T14:11:49.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="sgz7oTPS85_RPrpSCgZH" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T01:37:03.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mngZ2S2dhpLu8JTkuske" version="21.6.7" type="github">
   <diagram name="Page-1" id="dDeGqRXp0xGCJ_mann2E">
     <mxGraphModel dx="923" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="2CZnXlwhO2XaA9rqXaDM-15" value="Discuss" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="200" y="300" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="2CZnXlwhO2XaA9rqXaDM-16" value="Content&lt;br&gt;Metadata&lt;br&gt;(NoSQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-16" value="Metadata&lt;br&gt;(NoSQL)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="368" y="300" width="152" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2CZnXlwhO2XaA9rqXaDM-18" value="Web&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -46,14 +46,14 @@
         <mxCell id="2CZnXlwhO2XaA9rqXaDM-20" value="id&lt;br&gt;userId&lt;br&gt;title&lt;br&gt;content&lt;br&gt;type&lt;br&gt;status&lt;br&gt;createTime&lt;br&gt;commentCount&lt;br&gt;score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="410" width="150" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="2CZnXlwhO2XaA9rqXaDM-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-21" value="captcha&lt;br&gt;login certificate&lt;br&gt;&lt;br&gt;user info:&lt;br&gt;follower&lt;br&gt;following&lt;br&gt;like&lt;br&gt;recvLike" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="368" y="410" width="152" height="200" as="geometry" />
         </mxCell>
         <mxCell id="2CZnXlwhO2XaA9rqXaDM-22" value="Comment" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="550" y="300" width="152" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="2CZnXlwhO2XaA9rqXaDM-23" value="id&lt;br&gt;userID&lt;br&gt;entityType&lt;br&gt;entityId&lt;br&gt;targetId&lt;br&gt;content&lt;br&gt;status&lt;br&gt;createTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="410" width="152" height="200" as="geometry" />
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-23" value="id&lt;br&gt;userID&lt;br&gt;targetType(comment/discuss)&lt;br&gt;targetId&lt;br&gt;targetCommentId&lt;br&gt;content&lt;br&gt;status&lt;br&gt;createTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="410" width="166" height="200" as="geometry" />
         </mxCell>
         <mxCell id="2CZnXlwhO2XaA9rqXaDM-26" value="1." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -307,6 +307,33 @@
         </mxCell>
         <mxCell id="2CZnXlwhO2XaA9rqXaDM-106" value="File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="-660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-109" value="From&lt;br&gt;User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="746" y="165" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-110" value="To&lt;br&gt;User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="826" y="165" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-111" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775.5" y="225" as="sourcePoint" />
+            <mxPoint x="776" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-112" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="856" y="290" as="sourcePoint" />
+            <mxPoint x="855.5" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-113" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CZnXlwhO2XaA9rqXaDM-114" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="190" as="sourcePoint" />
+            <mxPoint x="620" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
